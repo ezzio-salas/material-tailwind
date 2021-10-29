@@ -45,7 +45,7 @@ const bgColors = {
     red: 'bg-red-500',
 };
 
-export default function Progress({ color, value, percentage ,bh}) {
+export default function Progress({ color, value, percentage ,bh,cbr}) {
     return (
         <>
             <div
@@ -55,7 +55,7 @@ export default function Progress({ color, value, percentage ,bh}) {
             >
                 <div
                     style={{ width: `${value}%` }}
-                    className={`flex justify-center items-center rounded text-xs font-medium ${bgColors[color]} text-white`}
+                    className={`flex justify-center items-center  ${ !cbr ? 'rounded' : cbr   } text-xs font-medium ${bgColors[color]} text-white`}
                 >
                     {percentage ? `${value}% Completed` : ''}
                 </div>
