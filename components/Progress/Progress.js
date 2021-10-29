@@ -51,7 +51,7 @@ export default function Progress({ color, value, percentage ,bh,cbr}) {
             <div
                 className={`overflow-hidden ${
                     percentage ? 'h-6' : bh ? bh:'h-2'
-                } flex rounded ${wrapperBgColors[color]}`}
+                } flex ${ !cbr ? 'rounded' : cbr   }  ${wrapperBgColors[color]}`}
             >
                 <div
                     style={{ width: `${value}%` }}
