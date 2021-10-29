@@ -45,12 +45,12 @@ const bgColors = {
     red: 'bg-red-500',
 };
 
-export default function Progress({ color, value, percentage }) {
+export default function Progress({ color, value, percentage ,bh}) {
     return (
         <>
             <div
                 className={`overflow-hidden ${
-                    percentage ? 'h-6' : 'h-2'
+                    percentage ? 'h-6' : bh ? bh:'h-2'
                 } flex rounded ${wrapperBgColors[color]}`}
             >
                 <div
