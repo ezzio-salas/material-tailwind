@@ -6,6 +6,9 @@ module.exports = withImages({
     future: {
         webpack5: true,
     },
+    images:{
+        disableStaticImages: true
+    },
     webpack(config) {
         config.resolve.modules.push(path.resolve('./'));
         return config;

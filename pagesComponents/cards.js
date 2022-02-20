@@ -7,6 +7,7 @@ import CardStatusFooter from 'components/Card/CardStatusFooter';
 import CardHeader from 'components/Card/CardHeader';
 import CardBody from 'components/Card/CardBody';
 import CardFooter from 'components/Card/CardFooter';
+import CardTable from 'components/Card/CardTable';
 import H5 from 'components/Typography/Heading5';
 import H6 from 'components/Typography/Heading6';
 import Paragraph from 'components/Typography/Paragraph';
@@ -108,3 +109,16 @@ export function StatusCard() {
         </Card>
     );
 }
+
+export function TableCard() {
+    return (
+        <CardTable childrenHeaders={["Headers1","Header2","Header3"]}
+        childrenRows={["row","row2","row3"]}
+        childrenCols={["col1","col2","col3"]}
+    >
+
+       </CardTable>
+    )
+}
+
+

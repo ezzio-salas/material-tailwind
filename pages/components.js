@@ -36,7 +36,7 @@ import { TabIcons, TabLinks } from 'pagesComponents/tabs';
 import Popovers from 'pagesComponents/popovers';
 import Tooltips from 'pagesComponents/tooltips';
 import Modals from 'pagesComponents/modals';
-import { RegularCard, LoginCard, StatusCard } from 'pagesComponents/cards';
+import { RegularCard, LoginCard, StatusCard,TableCard } from 'pagesComponents/cards';
 import Checkbox from 'components/Checkbox/Checkbox';
 import Radio from 'components/Radio/Radio';
 import Textarea from 'components/Textarea/Textarea';
@@ -1320,6 +1320,9 @@ export default function Components() {
 
                             <div className="w-96 mb-10">
                                 <StatusCard />
+                            </div>
+                            <div className="w-96 mb-10">
+                                <TableCard />
                             </div>
                         </div>
                     </div>
