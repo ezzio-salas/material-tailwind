@@ -4083,10 +4083,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-material-icons@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-0.6.4.tgz#d0a120651c75058fe328c7ea9abb5b5be7e1b194"
-  integrity sha512-pAx0WSSGx4l6h8aMap+09TFMNMZUwGYlN0iWtK2vvHDJUe5B0MPmRyqwj42ov/x+kEqXuDKHT+2RUFfNZB3aUg==
+material-icons@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-0.7.7.tgz#10e67bc0a105d355469b12aa3cab1cf91a2b03e7"
+  integrity sha512-WzHzL+/QlcCRbF2aCElgv6r0ViRateatEQP/UOA502PitZNFF2BJIcGpzvJmMPShktkhhrLAFx+elDN7DcjXVQ==
 
 material-ripple-effects@^2.0.1:
   version "2.0.1"
