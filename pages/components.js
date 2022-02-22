@@ -1321,13 +1321,20 @@ export default function Components() {
                             <div className="w-96 mb-10">
                                 <StatusCard />
                             </div>
-                            <div className="w-96 mb-10">
+                            <div className="w-6/12 mb-10">
                                 <TableCard />
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div className="bg-gray-100 py-16 mt-36">
+                    <div className="container max-w-7xl mx-auto px-4">
+                        <H4 color="gray">Panels</H4>
+
+                        
+                     </div>
+                </div>
                 <div className="container max-w-7xl mx-auto mt-36 px-4">
                     <H4 color="gray">Typography</H4>
 

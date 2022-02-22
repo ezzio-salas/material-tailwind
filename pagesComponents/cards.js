@@ -112,9 +112,9 @@ export function StatusCard() {
 
 export function TableCard() {
     return (
-        <CardTable childrenHeaders={["Headers1","Header2","Header3"]}
-        childrenRows={["row","row2","row3"]}
-        childrenCols={["col1","col2","col3"]}
+        <CardTable childrenHeaders={["Table Header X","Table Header Y","Table Header Z"]}
+        childrenRows={["Material Tailwind","Material Tailwind","Material Tailwind"]}
+        childrenCols={["Material Tailwind","Material Tailwind","Material Tailwind"]}
     >
 
        </CardTable>
