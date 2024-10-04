@@ -27,7 +27,7 @@
     "material-ripple-effects": "^2.0.1",
     "next": "12.1.0",
     "next-images": "^1.7.0",
-    "npm": "7.21.0",
+    "npm": "10.9.0",
     "path": "^0.12.7",
     "postcss-import": "^14.0.2",
     "react": "17.0.2",
