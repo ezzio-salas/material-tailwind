@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/runtime": "^7.14.0",
+    "@babel/runtime": "^7.26.10",
     "@tippyjs/react": "^4.2.5",
     "material-icons": "^0.6.4",
     "material-ripple-effects": "^2.0.1",
