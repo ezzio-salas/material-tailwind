@@ -20,7 +20,7 @@
      "deploy": "npm run build && npm run export && cp CNAME out/CNAME && touch out/.nojekyll && git add out/ && git commit -m \"ready to deploy\" && git push && git push origin --delete gh-pages && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/runtime": "^7.14.0",
     "@tippyjs/react": "^4.2.5",
     "material-icons": "^0.6.4",
